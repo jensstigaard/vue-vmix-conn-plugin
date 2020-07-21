@@ -1,0 +1,35 @@
+{
+  "name": "vue-vmix-conn-plugin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "keywords": [
+    "Vue",
+    "Vue",
+    "plugin",
+    "vMix"
+  ],
+  "author": "Jens Grønhøj Stigaard",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "repository": {
+    "private": true,
+    "type": "git",
+    "url": "git+https://github.com/jensstigaard/vue-vmix-conn-plugin.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jensstigaard/vue-vmix-conn-plugin/issues"
+  },
+  "homepage": "https://github.com/jensstigaard/vue-vmix-conn-plugin#readme",
+  "dependencies": {
+    "node-vmix": "^1.2.2",
+    "vue": "^2.6.11"
+  },
+  "devDependencies": {
+    "@types/node": "^14.0.24",
+    "typescript": "^3.9.7"
+  }
+}
