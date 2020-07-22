@@ -25,6 +25,7 @@ npm install vue-vmix-conn-plugin --save
 const Vue = require('vue')
 const { vMixConnectionPlugin, vMixConnectionPluginStore } = require('vue-vmix-conn-plugin')
 
+// Important line - install plugin in Vue
 Vue.use(vMixConnectionPlugin, new vMixConnectionPluginStore())
 
 const app = new Vue({
@@ -32,7 +33,7 @@ const app = new Vue({
 }).$mount('#app')
 ```
 ### Simple use
-You can now access the vMix connection plugin and use it inside any Vue file.
+You can now access the vMix connection plugin and use it in any Vue file.
 ```javascript
 // In Vue file
 export default {
