@@ -1,5 +1,11 @@
 # vue-vmix-conn-plugin
 
+[![package json version](https://img.shields.io/github/package-json/v/jensstigaard/vue-vmix-conn-plugin.svg)](https://www.github/jensstigaard/vue-vmix-conn-plugin)
+[![npm version](https://badge.fury.io/js/vue-vmix-conn-plugin.svg)](https://www.npmjs.com/package/vue-vmix-conn-plugin)
+[![npm downloads](https://img.shields.io/npm/dm/vue-vmix-conn-plugin)](https://www.npmjs.com/package/vue-vmix-conn-plugin)
+
+[![NPM Badge](https://nodei.co/npm/vue-vmix-conn-plugin.png)](https://npmjs.com/package/vue-vmix-conn-plugin)
+
 vMix connection plugin for Vue.
 
 ## Usage
