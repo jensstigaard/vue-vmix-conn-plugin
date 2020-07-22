@@ -4,8 +4,13 @@ vMix connection plugin for Vue.
 
 ## Usage
 ### Install dependency and add to dependencies list
+Yarn
 ```
 yarn add vue-vmix-conn-plugin -d
+```
+NPM
+```
+npm install vue-vmix-conn-plugin --save
 ```
 
 ### Instanciate with Vue instance
