@@ -21,7 +21,7 @@ const app = new Vue({
 ```
 
 You can access the vMix plugin and use it inside Vue instance
-```javacript
+```javascript
 // In Vue file
 export default {
 	created() {
