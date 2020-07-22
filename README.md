@@ -17,7 +17,8 @@ const { vMixConnectionPlugin, vMixConnectionPluginStore } = require('vue-vmix-co
 Vue.use(vMixConnectionPlugin, new vMixConnectionPluginStore())
 
 const app = new Vue({
-})
+	// ...options
+}).$mount('#app')
 ```
 
 You can access the vMix plugin and use it inside Vue instance
