@@ -13,8 +13,9 @@
   "author": "Jens Grønhøj Stigaard",
   "license": "MIT",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tsc"
+    "build": "tsc",
+    "scratch": "node scratch/basic.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "private": true,
