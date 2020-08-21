@@ -15,11 +15,11 @@ export class vMixConnectionPluginStore {
     },
   })
 
-  get connection() {
+  connection() {
     return this.storeVM!.$data.connection
   }
 
-  get connected() {
+  connected() {
     if (!this.storeVM!.$data.connection) {
       return false
     }
