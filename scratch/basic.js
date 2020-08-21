@@ -13,6 +13,8 @@ const app = new Vue({
 			console.log('Received data from vMix instance')
 			console.log(data)
 		})
+
+		// console.log(this.$vMixConnection.connection())
 	}
 })
 
