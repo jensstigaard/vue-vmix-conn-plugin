@@ -14,7 +14,8 @@ const app = new Vue({
 			console.log(data)
 		})
 
-		console.log('Connection', this.$vMixConnection.connection())
+		console.log('Connection', this.$vMixConnection.connection)
+		console.log('Connected', this.$vMixConnection.connected)
 	}
 })
 

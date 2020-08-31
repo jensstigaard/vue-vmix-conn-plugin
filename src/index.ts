@@ -15,56 +15,55 @@ export class vMixConnectionPluginStore {
     },
   })
 
-  connection() {
+  get connection() {
     return this.storeVM!.$data.connection
   }
 
-  connected(): boolean {
-    const connection = this.connection()
-    if (!connection) {
+  get connected(): boolean {
+    if (!this.connection) {
       return false
     }
-    return connection.connected()
+
+    return this.connection.connected()
   }
 
   setConnection(host: string, options: { [key: string]: any } = {}) {
     // Shutdown/Destroy old connection?
-    if (this.connection()) {
-      // console.log('Shutdown old connection!', this.storeVM!.$data.connection)
-      this.connection().shutdown()
+    if (this.connection) {
+      console.log('Shutting down old connection', this.connection)
+      this.connection.shutdown()
     }
 
     // Set new connection
     // @ts-ignore
     this.storeVM!.$data.connection = new ConnectionTCP(host, options)
+    console.log('Set new connection', this.storeVM!.$data.connection)
   }
 
   shutdown() {
-    const connection = this.connection()
     // If no connection then do nothing
-    if (!connection) {
+    if (!this.connection) {
       return
     }
 
     // Shutdown/Destroy old connection
     // console.log('Shutdown old connection!', this.storeVM!.$data.connection)
-    connection.shutdown()
+    this.connection.shutdown()
   }
 
   send(commands: any) {
-    const connection = this.connection()
-    if (!connection) {
+    if (!this.connection) {
       throw new Error('No vMix connection instanciated')
     }
-    connection.send(commands)
+    this.connection.send(commands)
   }
 
   on(...args: any) {
-    const connection = this.connection()
-    if (!connection) {
+    if (!this.connection) {
       throw new Error('No vMix connection instanciated')
     }
-    connection.on(...args)
+
+    this.connection.on(...args)
   }
 }
 
