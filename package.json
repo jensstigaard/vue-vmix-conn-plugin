@@ -1,7 +1,7 @@
 {
   "name": "vue-vmix-conn-plugin",
-  "version": "1.0.4",
-  "description": "",
+  "version": "1.0.5",
+  "description": "vMix connection plugin for Vue",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "keywords": [
