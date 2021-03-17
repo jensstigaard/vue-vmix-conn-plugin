@@ -22,7 +22,6 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
-    "private": true,
     "type": "git",
     "url": "git+https://github.com/jensstigaard/vue-vmix-conn-plugin.git"
   },
@@ -36,7 +35,7 @@
   },
   "devDependencies": {
     "@types/node": "^14.14",
-    "snyk": "^1.460.0",
+    "snyk": "^1.495.0",
     "typescript": "^4.2"
   },
   "snyk": true
