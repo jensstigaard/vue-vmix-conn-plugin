@@ -1,6 +1,6 @@
 {
   "name": "vue-vmix-conn-plugin",
-  "version": "1.0.7",
+  "version": "1.1.0",
   "description": "vMix connection plugin for Vue",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -15,7 +15,7 @@
   "scripts": {
     "build": "tsc",
     "build-test": "yarn build && yarn test",
-    "clean": "rm -fir ./dist/*",
+    "clean": "rm -ifr ./dist/*",
     "clean-build": "yarn clean && yarn build",
     "prepublish": "yarn run snyk-protect && yarn clean && yarn build",
     "snyk-protect": "snyk protect",
@@ -30,7 +30,7 @@
   },
   "homepage": "https://github.com/jensstigaard/vue-vmix-conn-plugin#readme",
   "dependencies": {
-    "node-vmix": "^1.4",
+    "node-vmix": "^1.5",
     "vue": "^2.6"
   },
   "devDependencies": {

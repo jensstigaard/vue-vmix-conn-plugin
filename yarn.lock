@@ -1956,7 +1956,7 @@ lodash.values@^4.3.0:
   resolved "https://registry.yarnpkg.com/lodash.values/-/lodash.values-4.3.0.tgz#a3a6c2b0ebecc5c2cba1c17e6e620fe81b53d347"
   integrity sha1-o6bCsOvsxcLLocF+bmIP6BtT00c=
 
-lodash@^4.17.15, lodash@^4.17.21:
+lodash@^4.17.15:
   version "4.17.21"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.21.tgz#679591c564c3bffaae8454cf0b3df370c3d6911c"
   integrity sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==
@@ -2116,14 +2116,13 @@ nice-try@^1.0.4:
   resolved "https://registry.yarnpkg.com/nice-try/-/nice-try-1.0.5.tgz#a3378a7696ce7d223e88fc9b764bd7ef1089e366"
   integrity sha512-1nh45deeb5olNY7eX82BkPO7SSxR5SSYJiPTrTdFUVYwAl8CKMA5N9PjTYkHiRjisVcxcQ1HXdLhx2qxxJzLNQ==
 
-node-vmix@^1.4:
-  version "1.4.0"
-  resolved "https://registry.yarnpkg.com/node-vmix/-/node-vmix-1.4.0.tgz#549b6bb13e4327bb429d08c461968d544d9d5076"
-  integrity sha512-WnsJtiKT5GwtdnScHCdb2pRDBW6H5mLzuaoZyrtnyv1TzqxfJzbtzSAJ63XOQVUuYrbWvRT0mYcvdS25eobtsA==
+node-vmix@^1.5:
+  version "1.5.1"
+  resolved "https://registry.yarnpkg.com/node-vmix/-/node-vmix-1.5.1.tgz#063d021c00f65bf9b2610b00b7c2f5db2ba1999d"
+  integrity sha512-4Cbus0IXfwmBB/hN5Id+9dv63S1A6Q0YLt1FOjB+OqtDPK08g/52EwNfG9zLYVMEQy3gNYHYKMBT4fvO1pWj3Q==
   dependencies:
     axios "^0.21.1"
     querystring "^0.2.1"
-    vmix-js-utils "^4.0.0"
 
 node.extend@^2.0.0:
   version "2.0.2"
@@ -3378,16 +3377,6 @@ uuid@^8.2.0, uuid@^8.3.0, uuid@^8.3.2:
   resolved "https://registry.yarnpkg.com/uuid/-/uuid-8.3.2.tgz#80d5b5ced271bb9af6c445f21a1a04c606cefbe2"
   integrity sha512-+NYs2QeMWy+GWFOEm9xnn6HCDp0l7QBD7ml8zLUmJ+93Q5NF0NocErnwkTkXVFNiX3/fpC6afS8Dhb/gz7R7eg==
 
-vmix-js-utils@^4.0.0:
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/vmix-js-utils/-/vmix-js-utils-4.0.0.tgz#cea4d130effab25d606636d5dc554d719e82aa87"
-  integrity sha512-zQN6eViTWW/HDXuG5YPeqi2iseBo9ONV5QVDHrdUOJQNJ5dASWQHc+TjEDGlmbLM7R00Vi5ONB8PFSgzI3plbA==
-  dependencies:
-    lodash "^4.17.21"
-    querystring "^0.2.1"
-    xmldom "^0.5.0"
-    xpath "^0.0.32"
-
 vscode-languageserver-types@^3.16.0:
   version "3.16.0"
   resolved "https://registry.yarnpkg.com/vscode-languageserver-types/-/vscode-languageserver-types-3.16.0.tgz#ecf393fc121ec6974b2da3efb3155644c514e247"
@@ -3481,16 +3470,6 @@ xmlbuilder@~11.0.0:
   version "11.0.1"
   resolved "https://registry.yarnpkg.com/xmlbuilder/-/xmlbuilder-11.0.1.tgz#be9bae1c8a046e76b31127726347d0ad7002beb3"
   integrity sha512-fDlsI/kFEx7gLvbecc0/ohLG50fugQp8ryHzMTuW9vSa1GJ0XYWKnhsUx7oie3G98+r56aTQIUB4kht42R3JvA==
-
-xmldom@^0.5.0:
-  version "0.5.0"
-  resolved "https://registry.yarnpkg.com/xmldom/-/xmldom-0.5.0.tgz#193cb96b84aa3486127ea6272c4596354cb4962e"
-  integrity sha512-Foaj5FXVzgn7xFzsKeNIde9g6aFBxTPi37iwsno8QvApmtg7KYrr+OPyRHcJF7dud2a5nGRBXK3n0dL62Gf7PA==
-
-xpath@^0.0.32:
-  version "0.0.32"
-  resolved "https://registry.yarnpkg.com/xpath/-/xpath-0.0.32.tgz#1b73d3351af736e17ec078d6da4b8175405c48af"
-  integrity sha512-rxMJhSIoiO8vXcWvSifKqhvV96GjiD5wYb8/QHdoRyQvraTpp4IEv944nhGausZZ3u7dhQXteZuZbaqfpB7uYw==
 
 xtend@~4.0.1:
   version "4.0.2"
