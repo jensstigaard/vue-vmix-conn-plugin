@@ -8,6 +8,9 @@ const app = new Vue({
 	// Test that when create you can access the vMix plugin and use it
 	created() {
 		this.$vMixConnection.setConnection('localhost', { debug: false })
+		this.$vMixConnection.on('connecting', () => {
+			console.log('Connecting to vMix instance')
+		})
 		this.$vMixConnection.on('connect', () => {
 			console.log('Connected to vMix instance')
 		})
@@ -16,8 +19,8 @@ const app = new Vue({
 			console.log(data)
 		})
 
-		console.log('Connection', this.$vMixConnection.connection)
-		console.log('Connected', this.$vMixConnection.connected)
+		// console.log('Connection', this.$vMixConnection.connection)
+		// console.log('Connected', this.$vMixConnection.connected)
 	}
 })
 
